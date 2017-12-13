@@ -19,8 +19,8 @@ public class WeatherReporter {
         System.out.println("########################");
         System.out.println("reporting");
         System.out.println("########################");
-        // locationManager.getCurrentLocation()
-        // weatherService.getTemperature(location)
-        // print(temperature)
+        String location = locationManager.getCurrentLocation();
+        String temperature = weatherService.getTemperature(location);
+        System.out.println(location + " => " + temperature);
     }
 }

@@ -8,4 +8,9 @@ public class Gismeteo implements WeatherService {
     @Inject
     public Gismeteo() {
     }
+
+    @Override
+    public String getTemperature(String location) {
+        return "+5";
+    }
 }

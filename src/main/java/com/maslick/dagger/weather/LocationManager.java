@@ -12,4 +12,8 @@ public class LocationManager {
     public LocationManager(GpsSensor gps) {
         this.gps = gps;
     }
+
+    public String getCurrentLocation() {
+        return gps.getCurrentLocation();
+    }
 }

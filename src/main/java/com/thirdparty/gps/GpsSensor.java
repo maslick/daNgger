@@ -8,4 +8,8 @@ public class GpsSensor {
     public void calibrate() {
         System.out.println("calibration");
     }
+
+    public String getCurrentLocation() {
+        return "Ljubljana, Slovenia";
+    }
 }

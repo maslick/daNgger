@@ -11,4 +11,9 @@ public class Rosgidromet implements WeatherService {
         this.socket = socket;
         this.key = key;
     }
+
+    @Override
+    public String getTemperature(String location) {
+        return "+7";
+    }
 }
