@@ -2,11 +2,8 @@ package com.maslick.dagger.weather;
 
 import javax.inject.Inject;
 
-public class GPSProvider {
+public class YahooWeather implements WeatherService {
     @Inject
-    public GPSProvider() {
-        // ...
+    public YahooWeather() {
     }
 }
-
-
