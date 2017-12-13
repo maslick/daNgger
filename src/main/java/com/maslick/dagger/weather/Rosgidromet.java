@@ -2,14 +2,13 @@ package com.maslick.dagger.weather;
 
 import com.maslick.dagger.weather.ifaces.WeatherService;
 
-import javax.inject.Inject;
-
 public class Rosgidromet implements WeatherService {
 
     private final WebSocket socket;
+    private final String key;
 
-    @Inject
-    public Rosgidromet(WebSocket socket) {
+    public Rosgidromet(WebSocket socket, String key) {
         this.socket = socket;
+        this.key = key;
     }
 }
