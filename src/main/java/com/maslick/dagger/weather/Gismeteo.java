@@ -4,8 +4,8 @@ import com.maslick.dagger.weather.ifaces.WeatherService;
 
 import javax.inject.Inject;
 
-public class YahooWeather implements WeatherService {
+public class Gismeteo implements WeatherService {
     @Inject
-    public YahooWeather() {
+    public Gismeteo() {
     }
 }
